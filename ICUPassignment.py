@@ -34,6 +34,8 @@ for data in f1:
             dict2[word]=0
         dict2[word]+=1
 print(dict2)
+f.close()
+f1.close()
 #graph of the 2 files sizes
 import os
 count1= os.path.getsize("C:\Python\Python37\sport.txt")
